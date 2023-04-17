@@ -1,0 +1,44 @@
+
+nav{
+    margin-top: 30px;
+    background-color: $colorPrincipal;
+    .navbar-brand{
+        color:$colorCuarto;
+        font-family: $fontPrincipal;
+        font-size: $textLg;
+    }
+    .nav-link{
+        color:$colorCuarto;
+    }
+    .btn{
+        background-color: $colorSengudo;
+        border: none;
+        color: $colorCuarto;
+        &:hover{
+            background-color:$colorCuarto; 
+            color: $colorPrincipal; 
+            }
+    }
+
+    .form-control:focus{
+        box-shadow: none !important;
+    }
+
+    .navbar-toggler{
+        border: none !important;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important ;
+    }
+    span{
+        color: $colorCuarto;
+        font-family: $fontSecundaria;
+        font-size: $textSx;
+        &:hover{
+            color: $colorTercero;
+        }
+    }
+    
+    
+}
+

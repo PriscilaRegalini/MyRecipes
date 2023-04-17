@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body background="img/bg/bg.webp">
+   
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-2" href="#">My Recipes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span>Menú</span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Libro
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nueva receta</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Desayunos</a></li>
+                  <li><a class="dropdown-item" href="#">Almuerzos</a></li>
+                  <li><a class="dropdown-item" href="#">Meriendas</a></li>
+                  <li><a class="dropdown-item" href="#">Cenas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Fiestas y eventos</a></li>
+                  <li><a class="dropdown-item" href="#">Colaciones</a></li>
+                  <li><a class="dropdown-item" href="#">Equivalencias</a></li>
+                  <li><a class="dropdown-item" href="#">Nutrición</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3" href="#">Agenda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lista de compras
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nueva lista</a></li>
+                  <li><a class="dropdown-item" href="#">Última lista</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Lista semanal
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">Lista mensual
+
+                  </a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+
+        <h1>Mis últimas recetas</h1>
+
+          <div class="card-group my-5 ">
+            <div class="card mx-5 .col-md-6">
+              <img src="img/recetas/budinDeArandanosYBanana.webp" class="card-img-top" alt="Budín de arándanos y banana">
+              <div class="card-body mx-2">
+                <h2 class="card-title">Budín de arándanos y banana</h2>
+                <p class="card-text">Budín liviano, fresco y con mucho sabor. Sin lactosa y con opción sin acc</p>
+                <p class="card-text"><small class="text-body-secondary">Agregada en abril</small></p>
+              </div>
+            </div>
+            <div class="card mx-5">
+              <img src="img/recetas/MuffinsSinTacc.webp" class="card-img-top" alt="Muffin con crema color durazno">
+              <div class="card-body">
+                <h2 class="card-title">Muffins sin Tacc</h2>
+                <p class="card-text">Muffin de vainilla, esponjoso y sin Tacc con una cubierta de crema. </p>
+                <p class="card-text"><small class="text-body-secondary">Agregada en abril</small></p>
+              </div>
+            </div>
+            <!-- <div class="card mx-5">
+              <img src="img/recetas/trufasConNuez.webp" class="card-img-top" alt="trufa de chocolate rellena con nuez y dulce de leche cubierta con granas de color marrón">
+              <div class="card-body">
+                <h2 class="card-title">Trufas rellenas con nuez</h2>
+                <p class="card-text">Hechas a base de galletitas de chocolate, pero pueden hacerce con biscochuelo de chocolate también. Rellenas de nuez y dulce de leche</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated abril</small></p>
+                  </div>
+                </div> -->
+              </div>
+
+      </main>
+
+      <footer>
+        <div class="card text-center footer">
+          <div class="card-header">
+            My Recipes
+          </div>
+          <div class="card-body footer">
+            <p class="card-text">Este es el libro donde guardo las recetas que encuentro, que me comparten, que invento y disfruto cocinar.</p>
+            <a href="#" subject="tengo%20una%20consulta"> 
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                </svg>
+              </a>
+                <a class="corazon" href="https://priscilaregalini.github.io/Portfolio/ " target="_blank">By<img src="/img/corazon-blanco.svg" alt="Un corazón blanco con un punto, firma de Priscila"></a>
+            </div>
+          </div>
+        
+                    
+      </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>  
+
+  </body>
+</html>

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,400&display=swap");
+body {
+  background-image: url(../img/bg/bg.webp);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+main h1 {
+  background-color: white;
+  opacity: 75%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  margin-left: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+}
+footer p {
+  color: white;
+}
+footer .footer {
+  background-color: #cb2e40;
+  border: none;
+  border-radius: none !important;
+}
+footer .card-header {
+  background-color: #de5571;
+  color: white;
+  font-size: 1.5em;
+  font-family: "Nothing You Could Do", sans-serif;
+}
+footer .btn {
+  background-color: #de5571;
+  color: white;
+  border: none;
+}
+footer .btn:hover {
+  background-color: white;
+  color: #cb2e40;
+}
+
+footer a {
+  text-decoration: none;
+}
+footer a svg {
+  width: 30px;
+  fill: white;
+}
+footer a svg:hover {
+  fill: #de5571;
+}
+
+.corazon {
+  padding-left: 50px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+}
+.corazon img {
+  width: 20px;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: #cb2e40;
+}
+nav .navbar-brand {
+  color: white;
+  font-family: "Nothing You Could Do", sans-serif;
+  font-size: 2em;
+}
+nav .nav-link {
+  color: white;
+}
+nav .btn {
+  background-color: #de5571;
+  border: none;
+  color: white;
+}
+nav .btn:hover {
+  background-color: white;
+  color: #cb2e40;
+}
+nav .form-control:focus {
+  box-shadow: none !important;
+}
+nav .navbar-toggler {
+  border: none !important;
+}
+nav .navbar-toggler:focus {
+  box-shadow: none !important;
+}
+nav span {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+}
+nav span:hover {
+  color: black;
+}
+
+.card-group h2 {
+  font-family: "Nothing You Could Do", sans-serif;
+  font-size: 1.5em;
+}
+.card-group p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+body{
+    background-image: url(../img/bg/bg.webp);
+    background-repeat: no-repeat;
+    height: 100%;  
+}
+main{
+    h1{
+        background-color: $colorCuarto;
+        opacity: 75%;
+        font-family: $fontSecundaria;
+        font-weight: $fontRegular;
+        font-size: $textLg;
+        margin-left: 10px;
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+footer{
+font-family: $fontSecundaria;
+p{
+    color: $colorCuarto;
+}
+.footer{
+   background-color: $colorPrincipal;
+   border: none;
+   border-radius: none !important;
+}
+.card-header{
+    background-color: $colorSengudo;
+    color: $colorCuarto;
+    font-size: $textMd;
+    font-family: $fontPrincipal;
+   
+}
+.btn{
+    background-color: $colorSengudo;
+    color: $colorCuarto;
+    border: none;
+    &:hover{
+        background-color: $colorCuarto;
+        color: $colorPrincipal; 
+    }
+}
+
+}
+
+footer{
+    a{
+        text-decoration: none;
+        svg{
+            width: 30px;
+            fill: $colorCuarto;
+            &:hover{
+                fill: $colorSengudo;
+            }
+        }
+    }
+    
+}
+.corazon{
+    padding-left: 50px;
+  color: $colorCuarto;
+  font-family: $fontSecundaria;
+  font-size: $textSx;
+    img{
+        width: 20px;
+    }
+}
