@@ -111,5 +111,15 @@ nav span:hover {
 .card-group p {
   font-family: "Poppins", sans-serif;
 }
+.card-group .card {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.card-group .card img {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
 
 /*# sourceMappingURL=style.css.map */
